@@ -23,6 +23,6 @@ EXPOSE 8080
 EXPOSE 19132/udp
 
 # RUN wget https://minecraft.azureedge.net/bin-linux/bedrock-server-1.14.60.5.zip
-RUN cd server && unzip bedrock-server-1.14.60.5.zip
+# RUN cd server && unzip bedrock-server-1.14.60.5.zip
 
 CMD [ "node", "server.js" ]
