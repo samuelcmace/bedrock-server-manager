@@ -1,5 +1,5 @@
 #!/bin/sh
-SERVER=bedrock-server-1.14.60.5.zip
+SERVER=bedrock-server-1.16.1.02.zip
 
 pushd server
 if [ -f "bedrock_server" ]; then

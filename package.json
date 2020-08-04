@@ -4,15 +4,29 @@
   "description": "A Minecraft Bedrock Server Manager for Linux Distrobutions utilizing systemd.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "parcel ./src/index.html",
+    "start-server": "nodemon server.js"
+  },
+  "nodemonConfig": {
+    "ignore": [".cache", "dist", "server", "src"]
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sammylandler/bedrock-server-manager.git"
   },
   "dependencies": {
-    "express": "4.17.1"
+    "express": "4.17.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "bootstrap": "4.5.0",
+    "react-router-dom": "5.2.0"
+  },
+  "devDependencies": {
+    "parcel": "1.12.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "typescript": "^3.9.7",
+    "nodemon": "2.0.4"
   },
   "author": "",
   "license": "ISC",
