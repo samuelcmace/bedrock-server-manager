@@ -8,25 +8,30 @@
     "start-server": "nodemon server.js"
   },
   "nodemonConfig": {
-    "ignore": [".cache", "dist", "server", "src"]
+    "ignore": [
+      ".cache",
+      "dist",
+      "server",
+      "src"
+    ]
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sammylandler/bedrock-server-manager.git"
   },
   "dependencies": {
+    "bootstrap": "4.5.0",
     "express": "4.17.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "bootstrap": "4.5.0",
     "react-router-dom": "5.2.0"
   },
   "devDependencies": {
-    "parcel": "1.12.4",
+    "nodemon": "2.0.4",
+    "parcel": "^2.0.0-rc.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "typescript": "^3.9.7",
-    "nodemon": "2.0.4"
+    "typescript": "^3.9.7"
   },
   "author": "",
   "license": "ISC",
